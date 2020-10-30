@@ -1,0 +1,48 @@
+{
+  "name": "precily-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.7.2",
+    "axios": "^0.20.0",
+    "lodash": "^4.17.20",
+    "nprogress": "^0.2.0",
+    "qs": "^6.9.4",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-hook-form": "5.1.1",
+    "react-hook-form-input": "1.1.10",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.4",
+    "react-sortablejs": "^6.0.0",
+    "sortablejs": "^1.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "set NODE_ENV=production && react-scripts build",
+    "dev": "set NODE_ENV=development && react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/sortablejs": "^1.10.6"
+  }
+}
